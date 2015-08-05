@@ -1,9 +1,9 @@
 require File.expand_path(File.dirname(__FILE__) + '../../../../spec_helper')
 
-describe ActiveRecord::Acts::ShoppingCart::Item do
+describe ActiveRecord::Acts::ShoppingCart::CollectionItem do
   let(:klass) do
     klass = Class.new
-    klass.send :include, ActiveRecord::Acts::ShoppingCart::Item
+    klass.send :include, ActiveRecord::Acts::ShoppingCart::CollectionItem
     klass
   end
 

@@ -1,7 +1,7 @@
 module ActiveRecord
   module Acts
     module ShoppingCart
-      module Item
+      module CollectionItem
 
         #
         # Returns the cart item for the specified object
